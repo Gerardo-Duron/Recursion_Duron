@@ -24,7 +24,7 @@ void towerOfHanoi(int n, char from_rod, char to_rod, char aux_rod)
 }  
 
 
-void factorialFunction()
+void factorialFunction() // function header for the recursion functon 
 
 {
   int n;
@@ -32,13 +32,13 @@ void factorialFunction()
   cout << "enter a number: ";
   cin >> n;
 
-  cout << "\nYou enetered: " << n << "\n" << endl;
+  cout << "\nYou enetered: " << n << "\n" << endl; // out put the value enetered by user
 
-  for(int i = 1; i <= n; i++)
+  for(int i = 1; i <= n; i++) // loop to multiply value given
     {
       factorial = factorial *i;
     }
-  cout << "Factorial of your Number is: "  << factorial << endl;
+  cout << "Factorial of your Number is: "  << factorial << endl; // out put the value
 
 }
 
